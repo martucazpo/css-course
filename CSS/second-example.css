@@ -1,0 +1,24 @@
+
+.title-text {
+    text-align: center;
+}
+
+.hobbies_section, .languages_section {
+    background-color: green;
+}
+
+.title {
+    font-family: Arial;
+}
+
+.hobbies-title, .languages-title, .hobbies-list, .languages-list {
+    color: white;
+}
+
+.list li:first-child {
+    color: cyan
+}
+
+.bands-list li:last-child {
+    text-decoration: line-through;
+}
