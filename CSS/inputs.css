@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    margin: .25rem;
+    padding: .5em;
+    border-radius: .2em;
+    outline: none;
+    border: 1px solid grey;
+    font-size: inherit;
+}
+
+.input:hover, input:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px 0 dodgerblue;
+}
+
+.input.input-success {
+    border: 1px solid green;
+}
+
+.input.input-success:hover, .input.input-success:focus{
+    border-color: greenyellow;
+    box-shadow: 0 0 5px 0 greenyellow;
+}
+
+.input.input-error {
+    border: 1px solid red;
+}
+
+.input.input-error:hover, .input.input-error:focus{
+    border-color: orangered;
+    box-shadow: 0 0 5px 0 orangered;
+}
+
+.input.input-large {
+    font-size: 1.5rem;
+}
+
+.input.input-small {
+    font-size: .75rem;
+}
+
+.input:disabled {
+    background-color: lightgray;
+}
+
+.input.input-disabled:hover, .input.input-disabled:focus {
+    border-color: grey;
+    box-shadow: none;
+}
